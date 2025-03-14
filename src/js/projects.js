@@ -2,6 +2,7 @@ import Swiper from 'swiper';
 import { Navigation, Autoplay, Keyboard } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import '../css/styles.css';
 
 document.addEventListener('DOMContentLoaded', function () {
     const swiper = new Swiper('.projects-swiper-container', {

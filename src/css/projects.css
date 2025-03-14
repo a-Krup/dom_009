@@ -16,14 +16,18 @@
   margin-bottom: 32px;
 }
 
+
 .projects-swiper-container {
   overflow: hidden;
   width: 100%;
 }
 
 .projects-list {
-  display: flex;
+ display: flex;
+ flex-direction: column;
+   
 }
+
 
 .projects-item {
   display: flex;
@@ -32,7 +36,10 @@
   border-radius: 24px;
   overflow: hidden;
   background-color: inherit;
-}
+  align-items: center;
+  justify-content: center;
+ }
+
 
 .description-content {
   padding: 32px;
@@ -85,7 +92,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: background-color
+  transition: background-color;
 }
 
 .btn-projects:hover {
@@ -177,6 +184,7 @@
 
 @media screen and (min-width: 375px) {
   .projects-item {
+    display: flex;
     flex-direction: column;
   }
 
@@ -254,18 +262,21 @@
     padding-bottom: 82px;
   }
 
-
-
-  .description-content {
+    .description-content {
     width: 50%;
     border-top-right-radius: 0;
     border-bottom-left-radius: 24px;
   }
 
   .projects-item {
-    display: flex;
     flex-direction: row;
+   
   }
+  .projects-list {
+    flex-direction: row;
+    
+      
+   }
 
   .technologies {
     width: 312px;
