@@ -1,11 +1,11 @@
 {
-  "name": "dom-inator_009",
+  "name": "dom_009",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/dom-inator_009/",
+    "build": "vite build --base=/dom_009/",
     "preview": "vite preview"
   },
   "devDependencies": {
